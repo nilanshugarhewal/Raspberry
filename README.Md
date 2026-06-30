@@ -1,4 +1,5 @@
-# 🍓 Raspberry
+> [!WARNING]  
+> 🍓 Raspberry is under active development. Core syntax and compiler are still in progress. Things may change at any time.
 
 > **Write less. Read more. Build faster.**
 
@@ -40,6 +41,7 @@ end
 ## Quick Example
 
 **JavaScript:**
+
 ```js
 let age = 18;
 
@@ -49,6 +51,7 @@ if (age >= 18) {
 ```
 
 **Raspberry:**
+
 ```rasp
 init age = 18
 
@@ -69,13 +72,13 @@ end
 
 Raspberry is currently under active development. Core syntax is being designed, while the compiler and standard library are still in progress.
 
-| Component        | Status          |
-|------------------|-----------------|
-| Syntax Design    | ✅ In progress  |
-| Lexer            | ✅ In progress  |
-| Parser           | 🔲 Not started  |
-| Compiler         | 🔲 Not started  |
-| Standard Library | 🔲 Not started  |
+| Component        | Status         |
+| ---------------- | -------------- |
+| Syntax Design    | ✅ In progress |
+| Lexer            | ✅ In progress |
+| Parser           | 🔲 Not started |
+| Compiler         | 🔲 Not started |
+| Standard Library | 🔲 Not started |
 
 ---
 

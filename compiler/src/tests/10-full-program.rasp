@@ -1,0 +1,23 @@
+// Raspberry Demo
+
+init age = 21;
+
+strict PI = 3.14159;
+
+init student = true;
+
+if age >= 18 {
+
+    write "Adult";
+
+} else {
+
+    write "Minor";
+
+}
+
+loop 5 times {
+
+    write "Loop";
+
+}

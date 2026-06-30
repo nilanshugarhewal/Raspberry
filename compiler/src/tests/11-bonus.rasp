@@ -1,0 +1,11 @@
+init number123 = 123.45;
+
+write "Hello\nWorld";
+
+if number123 >= 100 && true {
+
+    // comment
+
+    write "Working";
+
+}

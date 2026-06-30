@@ -1,0 +1,25 @@
+{
+  "name": "raspberry-language-support",
+  "displayName": "Raspberry Language Support",
+  "description": "Syntax highlighting and langauge support for the Raspberry Programming Langauge.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "raspberry",
+      "aliases": ["Raspberry", "raspberry"],
+      "extensions": [".rasp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "raspberry",
+      "scopeName": "source.raspberry",
+      "path": "./syntaxes/raspberry.tmLanguage.json"
+    }]
+  }
+}

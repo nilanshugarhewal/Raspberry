@@ -1,0 +1,33 @@
+write "Hello";
+
+init age;
+
+strict PI = 3.14;
+
+if true {
+
+}
+
+else {
+
+}
+
+loop 10 times {
+
+}
+
+from 1 to 10 {
+
+}
+
+stop;
+skip;
+
+create test {
+
+}
+
+return;
+
+null;
+undefined;

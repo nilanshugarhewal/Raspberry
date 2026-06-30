@@ -1,0 +1,18 @@
+{
+  "declaration": ["init", "strict", "create"],
+
+  "controlFlow": [
+    "if",
+    "else",
+    "loop",
+    "times",
+    "as",
+    "from",
+    "to",
+    "stop",
+    "skip",
+    "return"
+  ],
+
+  "io": ["write"]
+}

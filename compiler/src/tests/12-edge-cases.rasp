@@ -1,0 +1,35 @@
+init number = 0;
+init decimal = 0.5;
+init big = 999999999;
+
+write "";
+write "Hello";
+write "Hello\nWorld";
+write "Quote: \"";
+write "Backslash: \\";
+
+// comment
+
+/* block comment */
+
+value++;
+
+value--;
+
+a += b;
+a -= b;
+a *= b;
+a /= b;
+a %= b;
+
+a === b;
+a !== b;
+
+a && b;
+a || b;
+
+a ?? b;
+
+a?.name;
+
+(a + b) * c;

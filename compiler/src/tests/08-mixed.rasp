@@ -1,0 +1,16 @@
+init age = 21;
+
+strict PI = 3.14159;
+
+write "Hello World";
+
+if age >= 18 {
+
+    write "Adult";
+
+}
+else {
+
+    write "Child";
+
+}

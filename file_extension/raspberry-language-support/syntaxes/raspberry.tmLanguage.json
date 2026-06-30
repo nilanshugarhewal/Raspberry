@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+
+  "name": "Raspberry",
+
+  "scopeName": "source.raspberry",
+
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#numbers"
+    },
+    {
+      "include": "#booleans"
+    }
+  ],
+
+  "repository": {
+
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.raspberry",
+          "match": "\\b(write|init|strict|if|else|loop|times|as|from|to|stop|skip|create|return)\\b"
+        }
+      ]
+    },
+
+    "strings": {
+      "name": "string.quoted.double.raspberry",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.raspberry",
+          "match": "\\\\."
+        }
+      ]
+    },
+
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.raspberry",
+          "match": "\\b\\d+(\\.\\d+)?\\b"
+        }
+      ]
+    },
+
+    "booleans": {
+      "patterns": [
+        {
+          "name": "constant.language.boolean.raspberry",
+          "match": "\\b(true|false)\\b"
+        }
+      ]
+    },
+
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.raspberry",
+          "match": "//.*$"
+        }
+      ]
+    }
+
+  }
+}

@@ -1,0 +1,15 @@
+// This is a comment
+
+init age = 21;
+
+// Another comment
+
+/*
+This
+is
+a
+block
+comment
+*/
+
+write "Hello";

@@ -1,6 +1,8 @@
 > [!WARNING]  
 > 🍓 Raspberry is under active development. Core syntax and compiler are still in progress. Things may change at any time.
 
+# 🍓 Raspberry
+
 > **Write less. Read more. Build faster.**
 
 Raspberry is a lightweight programming language built on top of JavaScript. It is designed to make coding simpler by reducing boilerplate and introducing a clean, readable syntax while staying familiar to JavaScript developers.

@@ -1,6 +1,6 @@
 // This file contains all the keywords mapped with the token type.
 
-import { TokenType } from "./TokenType";
+import { TokenType } from "../tokens/TokenType";
 
 export const keywords = new Map<string, TokenType>([
   ["write", TokenType.WRITE],

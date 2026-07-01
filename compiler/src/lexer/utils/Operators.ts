@@ -1,6 +1,6 @@
 // This file contains all the single, double, and triple operators of the programming language.
 
-import { TokenType } from "./TokenType";
+import { TokenType } from "../tokens/TokenType";
 
 // single char operators that have no multi-char variants
 export const singleOperators = new Map<string, TokenType>([

@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import path from "path";
 import { Lexer } from "./lexer/Lexer";
-import { TokenType } from "./lexer/TokenType";
+import { TokenType } from "./lexer/tokens/TokenType";
 
 const filePath = path.join(__dirname, "./tests/12-edge-cases.rasp");
 

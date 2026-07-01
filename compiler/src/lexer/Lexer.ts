@@ -1,19 +1,19 @@
-import { Token } from "./Token";
-import { TokenType } from "./TokenType";
-import { TokenValue } from "./TokenValue";
+import { Token } from "./tokens/Token";
+import { TokenType } from "./tokens/TokenType";
+import { TokenValue } from "./tokens/TokenValue";
 
 // Utility Files
-import { isLetter, isDigit, isAlphaNumeric } from "./CharacterUtils";
-import { keywords } from "./Keyword";
+import { isLetter, isDigit, isAlphaNumeric } from "./utils/CharacterUtils";
+import { keywords } from "./utils/Keyword";
 import {
   singleOperators,
   doubleOperators,
   tripleOperators,
   delimiters,
   operatorChars,
-} from "./Operators";
-import { escapeSequences } from "./EscapeSequences";
-import { LexerError } from "./LexerError";
+} from "./utils/Operators";
+import { escapeSequences } from "./utils/EscapeSequences";
+import { LexerError } from "./utils/LexerError";
 
 export class Lexer {
   private readonly source: string;

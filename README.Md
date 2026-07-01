@@ -1,7 +1,10 @@
 > [!WARNING]  
-> 🍓 Raspberry is under active development. Core syntax and compiler are still in progress. Things may change at any time.
+> Raspberry is under active development. Core syntax and compiler are still in progress. Things may change at any time.
 
-# 🍓 Raspberry
+<h1>
+  <img src="./assets/raspberry-pl-transparent-logo.png" alt="Raspberry Logo" width="28" />
+  Raspberry
+</h1>
 
 > **Write less. Read more. Build faster.**
 

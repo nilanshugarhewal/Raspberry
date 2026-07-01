@@ -23,3 +23,14 @@
 
 ## Code Generator
 - [ ] JavaScript output
+
+NumberLiteral
+StringLiteral
+BooleanLiteral
+NullLiteral
+UndefinedLiteral
+
+Identifier
+
+BinaryExpression
+UnaryExpression
